@@ -1,0 +1,30 @@
+
+.input div {
+  margin-bottom: 38px;
+  text-align: center;
+}
+.input__info input {
+  width: 596px;
+  height: 60px;
+  padding: 0 12px;
+  border-radius: 1px rgba(255, 255, 255, 0.9);
+}
+.input__massage input {
+  width: 596px;
+  height: 216px;
+  padding: 0 12px;
+}
+.input__massage input::placeholder {
+}
+.input__sub #send {
+  color: white;
+  background-color: #000;
+  font-weight: 500;
+  width: 104px;
+  height: 66px;
+  cursor: pointer;
+}
+.input__sub #send:hover {
+  color: #000;
+  background-color: white;
+}
